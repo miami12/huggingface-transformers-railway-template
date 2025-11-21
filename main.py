@@ -8,7 +8,7 @@ from transformers import AutoModel, AutoTokenizer
 from pydantic import BaseModel
 
 # Change to your model id
-model_id = "Alibaba-NLP/gte-multilingual-base"
+model_id = "rednote-hilab/dots.ocr"
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModel.from_pretrained(model_id, trust_remote_code=True)
