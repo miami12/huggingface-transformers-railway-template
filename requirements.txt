@@ -1,4 +1,4 @@
+fastapi==0.109.Ω
 fastapi==0.109.2
 hypercorn==0.14.4
-torch == 2.1.0
-transformers == 4.45.2
+torch==2.4.0
